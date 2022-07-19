@@ -45,7 +45,7 @@
           <li><a href="index.php">Accueil</a></li>
           <li><a href="courses.php">Cours</a></li>
           <li><a class="active" href="trainers.php">Formateurs</a></li>
-          <li><a href="events.php">Evenements</a></li>
+          <li><a href="Tutoriels.php">Tutoriels</a></li>
           <!--<li><a href="pricing.php">Pricing</a></li>-->
 
 

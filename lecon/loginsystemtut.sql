@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
--- Hôte : 127.0.0.1:3306
--- Généré le : ven. 03 déc. 2021 à 18:59
--- Version du serveur :  5.7.31
--- Version de PHP : 7.3.21
+-- Hôte : 127.0.0.1
+-- Généré le : jeu. 23 juin 2022 à 00:18
+-- Version du serveur : 10.4.21-MariaDB
+-- Version de PHP : 8.0.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -27,13 +27,11 @@ SET time_zone = "+00:00";
 -- Structure de la table `imgupload`
 --
 
-DROP TABLE IF EXISTS `imgupload`;
-CREATE TABLE IF NOT EXISTS `imgupload` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
+CREATE TABLE `imgupload` (
+  `id` int(11) NOT NULL,
   `userid` int(11) NOT NULL,
-  `status` int(11) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+  `status` int(11) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
 -- Déchargement des données de la table `imgupload`
@@ -48,14 +46,12 @@ INSERT INTO `imgupload` (`id`, `userid`, `status`) VALUES
 -- Structure de la table `users`
 --
 
-DROP TABLE IF EXISTS `users`;
-CREATE TABLE IF NOT EXISTS `users` (
-  `idUsers` int(11) NOT NULL AUTO_INCREMENT,
+CREATE TABLE `users` (
+  `idUsers` int(11) NOT NULL,
   `uidUsers` tinytext NOT NULL,
   `emailUsers` tinytext NOT NULL,
-  `pwdUsers` longtext NOT NULL,
-  PRIMARY KEY (`idUsers`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+  `pwdUsers` longtext NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
 -- Déchargement des données de la table `users`
@@ -63,6 +59,38 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 INSERT INTO `users` (`idUsers`, `uidUsers`, `emailUsers`, `pwdUsers`) VALUES
 (1, 'Issa', 'root@gmail.com', '$2y$10$cayNdMCx8h3u8Pe1l3vd2OEB8iLXvgRZJc6muGuIeMh2GAvVUmfim');
+
+--
+-- Index pour les tables déchargées
+--
+
+--
+-- Index pour la table `imgupload`
+--
+ALTER TABLE `imgupload`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Index pour la table `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`idUsers`);
+
+--
+-- AUTO_INCREMENT pour les tables déchargées
+--
+
+--
+-- AUTO_INCREMENT pour la table `imgupload`
+--
+ALTER TABLE `imgupload`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT pour la table `users`
+--
+ALTER TABLE `users`
+  MODIFY `idUsers` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

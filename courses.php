@@ -45,7 +45,7 @@
           <li><a href="index.php">Accueil</a></li>
           <li><a class="active" href="courses.php">Cours</a></li>
           <li><a href="trainers.php">Formateurs</a></li>
-          <li><a href="events.php">Evenements</a></li>
+          <li><a href="Tutoriels.php">Tutoriels</a></li>
           <!--<li><a href="pricing.php">Pricing</a></li>-->
 
           <li><a href="about.php">A propos de Nous</a></li>
@@ -377,6 +377,17 @@ nécessaires aux tests de sécurité d'un système d'information.</p>
         </div>
       </div>
     </section><!-- End Popular Courses Section -->
+
+    <!--========LES LIENS VERS LA CHAINE YOUTUBE-->
+
+      <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/wD64rh5Wjgk?start=1"
+         title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+             allowfullscreen></iframe>
+ 
+      </div>
+      <!--========LES LIENS VERS LA CHAINE YOUTUBE=============-->
 
   </main><!-- End #main -->
    <!-- ======= Footer ======= -->

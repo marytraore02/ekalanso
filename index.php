@@ -40,7 +40,7 @@
           <li><a class="active" href="index.php">Accueil</a></li>
           <li><a href="courses.php">Cours</a></li>
           <li><a href="trainers.php">Formateurs</a></li>
-          <li><a href="events.php">Evenements</a></li>
+          <li><a href="Tutoriels.php">Tutoriels</a></li>
           <li><a href="about.php">A propos de Nous</a></li>
           <li><a href="contact.php">Contact</a></li>
         </ul>
@@ -56,10 +56,10 @@
     <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
         
      <h1>"L'école de l'innovation et de la créativité Malienne".</h1>
-      <h2>E-kalanso vous facilite l'apprentissage</h2>
+      <h2>Faciliter Vos apprentissages avec E-KALANSO.</h2>
 
       <a href="courses.php" class="btn-get-started">Commencez</a><br>
-      <marquee><h3 style="color: white">Veuillez créer un compte pour accéder au meilleur cours et avoir plus de contenu!</h3>
+      <marquee><h3 style="color: white">Veuillez créer votre compte pour accéder aux meilleurs cours et avoir plus de contenu!</h3>
       </marquee>
        
     </div>
@@ -86,7 +86,7 @@
 
           <div class="col-lg-3 col-6 text-center">
             <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Evenements</p>
+            <p>Tutoriels</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
@@ -103,8 +103,10 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Cours</h2>
-          <p>Cours Populaires</p>
+          <!--<h2>Cours</h2>--->
+          <h3> <div class="breadcrumbs" > Quelques cours populaires
+            <div class="container" data-aos="fade-up"></div>
+          </div></h3> 
         </div>
 
         <div class="row" data-aos="zoom-in" data-aos-delay="100">
@@ -119,7 +121,7 @@
                 </div>
                 <h3><a href="course-details-bitcoin.php">Details du Programme.</a></h3>
                   
-                <p>Bienvenue dans Bitcoin pour les nuls ! Bitcoin ? Vous
+                <p>Bienvenue dans ce cour  Bitcoin pour les nuls ! Bitcoin ? Vous
                          avez dit « Bitcoin » ?!… « Je vous assure mon cher
                          cousin que vous avez dit Bitcoin ! ». Bref ! Tout cela
                          pour dire qu’il est légitime de se poser la question de
@@ -209,15 +211,73 @@
       </div>
     </section><!-- End Popular Courses Section -->
   </main><!-- End #main -->
-            
+
+
+  <!-- les carrousels -->
+  
+  <div class="section-title">
+    
+  <h3> <div class="breadcrumbs"> Quelques meilleurs université
+  <div class="container" data-aos="fade-up"></div>
+  </div> </h3>
+         <!-- <h1>Quelques Meilleurs Université </h1>-->
+          
+        </div>
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./assets/img/portfolio/isa.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Université Technolab-ISTA</h5>
+        <p>l'université Technolab-ISTA est l'un des meilleurs université du Mali.Il nous 
+          offres des meilleurs formations de qualité.
+        </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/img/portfolio/uie.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>UIE</h5>
+        <p>L'université Tuniso-Mali, UIE est une université qui  nous offre des formations sur le  système 
+          d'education Tuniso-Mali.
+        </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/img/portfolio/FSEG.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Faculté des Sciences Economique et Gestion</h5>
+        <p>Les ressorissants de la série science Economique du lycée peuvent rejoindre la FSEG 
+          pour continuer leur cursus Universitaire.
+        </p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
 <!-- ======= Our Portfolio Section ======= -->
     <section id="portfolio" class="portfolio section-bg">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="section-title">
+        <!--  <div class="section-title">
           <h1>Les Meilleurs Etablissement</h1>
           
-        </div>
+        </div>---->
 
         <div class="row portfolio-container">
 

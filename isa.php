@@ -40,7 +40,7 @@
           <li><a class="active" href="index.php">Accueil</a></li>
           <li><a href="courses.php">Cours</a></li>
           <li><a href="trainers.php">Formateurs</a></li>
-          <li><a href="events.php">Evenements</a></li>
+          <li><a href="Tutoriels.php">Tutoriels</a></li>
           <li><a href="about.php">A propos de Nous</a></li>
           <li><a href="contact.php">Contact</a></li>
         </ul>

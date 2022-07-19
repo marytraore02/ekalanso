@@ -42,8 +42,8 @@
         <ul>
           <li><a href="index.php">Accueil</a></li>
           <li><a href="courses.php">Cours</a></li>
-          <li><a href="trainers.php">Trainers</a></li>
-          <li><a href="events.php">Events</a></li>
+          <li><a href="Tutoriels.php">Formateurs</a></li>
+          <li><a href="events.php">Tutoriels</a></li>
          <!-- <li><a href="pricing.php">Pricing</a></li>-->
 
            <li><a href="about.php">A propos de Nous</a></li>
