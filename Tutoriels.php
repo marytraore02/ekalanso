@@ -64,109 +64,61 @@
     <div class="breadcrumbs" data-aos="fade-in">
       <div class="container">
         <h2>NOS TUTORIELS</h2>
-        <p>Retrouvez nos formations en format MP4 </p>
+        <p>Retrouvez nos formations en format VIDEO </p>
       </div>
     </div><!-- End Breadcrumbs -->
 
     
 <div>
 <!-- COUR SUR BITCOIN----->
-<iframe width="500" height="300" src="https://www.youtube.com/embed/lr9sqK2PpnU?start=1" 
+<iframe width="600" height="400" src="https://www.youtube.com/embed/lr9sqK2PpnU?start=1" 
   title="YouTube video player" frameborder="0" 
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
    allowfullscreen></iframe>
 
 <!--- COUR SUR JAVASCRIPT---->
-<iframe width="500" height="300" src="https://www.youtube.com/embed/XkvrHQNmigs?start=1" 
+<iframe width="600" height="400" src="https://www.youtube.com/embed/XkvrHQNmigs?start=1" 
   title="YouTube video player" frameborder="0" 
    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
   allowfullscreen></iframe>
 
   <!--- COUR HTML ET CSS---->
-  <iframe width="500" height="300" src="https://www.youtube.com/embed/J9w-cir5a6U?start=1" 
+  <iframe width="600" height="400" src="https://www.youtube.com/embed/J9w-cir5a6U?start=1" 
     title="YouTube video player" frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
      allowfullscreen></iframe>
 
      <!--- COUR SUR LES RESEAUX INFORMATIQUE---->
-     <iframe width="500" height="300" src="https://www.youtube.com/embed/RtTEOacbdpk?start=1" 
+     <iframe width="600" height="400" src="https://www.youtube.com/embed/RtTEOacbdpk?start=1" 
       title="YouTube video player" frameborder="0" 
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
       allowfullscreen></iframe>
 
       <!--- COUR SUR C+++---->
-      <iframe width="500" height="300" src="https://www.youtube.com/embed/P9u96p4Cv8g?start=1" 
+      <iframe width="600" height="400" src="https://www.youtube.com/embed/P9u96p4Cv8g?start=1" 
         title="YouTube video player" frameborder="0"
          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
          allowfullscreen></iframe>
 
          <!--- COUR SUR WINDOWS SERVER ----->
-         <iframe width="500" height="300" src="https://www.youtube.com/embed/9kcKzReuxDY?start=1" 
+         <iframe width="600" height="400" src="https://www.youtube.com/embed/9kcKzReuxDY?start=1" 
           title="YouTube video player" frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen></iframe>
 
           <!--- COUR SUR UBUNTU---->
-          <iframe width="500" height="300" src="https://www.youtube.com/embed/UKaU11NRgsY?start=1" 
+          <iframe width="600" height="400" src="https://www.youtube.com/embed/UKaU11NRgsY?start=1" 
             title="YouTube video player" frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen></iframe>
 
             <!-- COUR SUR  LA CYBERSECURITE----->
-            <iframe width="500" height="300" src="https://www.youtube.com/embed/_edK_cVSNMw?start=1" 
+            <iframe width="600" height="400" src="https://www.youtube.com/embed/_edK_cVSNMw?start=1" 
               title="YouTube video player" frameborder="0" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
               allowfullscreen></iframe>
 
 </div>
-
-    <!-- ======= Events Section ======= --
-    <section id="events" class="events">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row">
-          <div class="col-md-6 d-flex align-items-stretch">
-            <div class="card">
-              <div class="card-img">
-                <img src="assets/img/pub/case.jpg" alt="...">
-              </div>
-              <div class="card-body">
-                <h4 class="card-title"><a href="">La case de l'entrepreneur</a></h4>
-                <p class="fst-italic text-center"><strong>Champion's LAB</strong></p>
-                <p class="card-text">la case de l'entrepreneur annonce le lancement de la deuxieme saison de champion's lab.<br>Les projets seront sur: </p>
-                  <ul>
-                  <li>AGROBUSINNESS</li>
-                      <li>TIC</li>
-                      <li>ENVIRONNEMENT</li>
-                      <li>ARTISANAT ET CULTURE</li>
-                      <li>BTP</li>
-                      <li>ENERGIES RENOUVALABLES</li>
-                      <li>EDUCATION</li>
-                      <li>SANTE</li>
-                      <li>ET TOUS LES SECTEURS D'ACTIVITES INNOVANTS</li>
-                  </ul>
-                  
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch">
-            <div class="card">
-              <div class="card-img">
-                <img src="assets/img/pub/isim1.jpg" alt="...">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title"><a href="">Marketing Digitales</a></h5>
-                <p class="fst-italic text-center">Jeudi 28 Mars 2021 7:00 pm</p>
-                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </section> End Events Section -->
-
   </main><!-- End #main -->
    <!-- ======= Footer ======= -->
   <footer id="footer">
