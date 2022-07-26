@@ -67,7 +67,17 @@
         <p>Retrouvez nos formations en format VIDEO </p>
       </div>
     </div><!-- End Breadcrumbs -->
+    <!--  la barre de recherche-->
 
+    <div id="searchbar">
+                
+                        <h1>TAPEZ POUR EFFECTUER DES RECHERCHES</h1>
+                <form action="" class="formulaire">
+               <input class="champ" type="text" value="Rechercher...)"/>
+                    <input class="bouton" type="button" value=" " />
+                     
+                </form>
+                </div>
     
 <div>
 <!-- COUR SUR BITCOIN----->
