@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>MALIKALANSO</title>
+    <title>E-KALANSO</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
@@ -36,7 +36,8 @@
 
       <div class="container-fluid">
         <div class="d-flex align-items-center">
-          <div class="site-logo mr-auto w-25"><a href="index.php">MALIKALANSO</a></div>
+          <!-- <div class="site-logo mr-auto w-25"><a href="index.php">E-KALANSO</a></div> -->
+          <div class="logo"><img src="assets/logka.jpg" alt="logo"></div>
 
           <div class="mx-auto text-center">
             
@@ -45,7 +46,7 @@
           <div class="ml-auto w-25">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
-                <li class="cta"><a href="../contact.php" class="nav-link"><span>Contactez-Nous</span></a></li>
+              <!--  <li class="cta"><a href="../contact.php" class="nav-link"><span>Contactez-nous</span></a></li>-->
               </ul>
             </nav>
             <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a>
@@ -57,12 +58,14 @@
 
     <div class="intro-section" id="home-section">
 
-      <div class="slide-1" style="background-image: url('images/hero_1.jpg');" data-stellar-background-ratio="0.5">
+      <div class="slide-1" style="background-image: url('assets/images/extra/svg1.jpg');" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-12">
               <div class="sign">
-                <!--sign-->
+
+                <!--+++++++++++++++++++S'INSCRIRE++++++++++++++++++++++++++++++++-->
+
                 <div class="container <?php echo (isset($_GET['errorp']) || isset($_GET['signup']))? 'right-panel-active':''; ?>" id="container">
                   <div class="form-container sign-up-container">
                     <form action="includes/signup1.inc.php" method="post" id="signup_form">
@@ -150,12 +153,12 @@
                     <div class="overlay">
                     <div id="overlay-left" class="overlay-panel overlay-left">
                           <h1>Bon Retour!</h1>
-                          <p>Restez connecter avec nous pour en savoir plus</p>
+                          <p>Restez connecter avec nous pour en savoir plus!!!</p>
                           <button class="ghost" id="signIn">SeConnecter</button>
                         </div>
                         <div class="overlay-panel overlay-right">
                           <h1>Salut, Apprenant!</h1>
-                          <p>Entrez vos informations personnelles et Commencez la journée</p>
+                          <p>Entrez vos informations personnelles et Commencez votre Apprentisage</p>
                           <button class="ghost" id="signUp">S'inscrire</button>
                         </div>
                     </div>

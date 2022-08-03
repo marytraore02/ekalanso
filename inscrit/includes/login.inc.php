@@ -20,7 +20,7 @@
           $_SESSION['userId']=$enreg['idUsers'];
           $_SESSION['userUid']=$enreg['uidUsers'];
 					$_SESSION['userEmail']=$enreg['emailUsers'];
-          header("Location: ../courses.php?login=success");
+          header("Location: ../subjects/jee.php?login=success");
           exit();
        }
      }else{/*There's no match to the username or email*/
@@ -31,9 +31,9 @@
 
   }else{
 		if (!(empty($_POST['mailuid'])|| trim($_POST['mailuid'])=='')) {
-			header("Location: ../courses.php?error=emptyfields&mail=".$_POST['mailuid']);
+			header("Location: ../subjects/jee.php?error=emptyfields&mail=".$_POST['mailuid']);
 		}else{
-			header("Location: ../courses.php?error=emptyfields");
+			header("Location: ../subjects/jee.php?error=emptyfields");
 		}
 
     exit();

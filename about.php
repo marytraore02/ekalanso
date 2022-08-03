@@ -1,319 +1,185 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="utf-8">
-   <meta content="width=device-width, initial-scale=1.0" name="viewport">
- 
-  <title>A Propos de Nous title</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/ch.png" rel="icon">
-  <link href="assets/img/ch.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+	<link rel="shortcut icon" type="png" href="assets/images/icon/favicon.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>E-kalanso</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
 </head>
-
 <body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="logo"><img src="assets/images/icon/logo.jpg" alt="logo"></div>
+			<ul>
+				<li><a href="index.php">Accueil</a></li>
+				<li><a href="subjects/jee.php">Nos Formations</a></li>
+				<li><a href="pub.php">Nos Portfolio</a></li>
+				<li><a href="inscrit/index.php">Certification</a></li>
+				<li><a class="active" href="about.php">A Propos</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="contact.php">Contact</a></li>
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Rechercher ici..."><img src="assets/images/icon/search.png" alt="Rechercher" onclick=slide()></div>
+			<a class="get-started" href="inscrit/index.php">Inscrivez-vous</a>
+			<img src="assets/images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>"L'école de l'innovation et de la créativité Malienne".</p>
+				<h5>Avec e-kalanso, c'est l'accessibilté total de l'éducation partout pour tout le monde! </h5>
+				<div class="play">
+					<img src="assets/images/icon/play.png" alt="play"><span><a href="https://www.youtube.com/watch?v=KFyrgDO1WXk" target="_blank">Regarder Maintenant</a></span>
+				</div>
+			</div>
+			<div class="svg-image">
+				<img src="assets/images/extra/svg1.jpg" alt="svg">
+			</div>
+		</div>
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="assets/images/icon/close.png" alt=""></div>
+			<div class="user">
+				<img src="assets/images/creator/roshan.jpeg" alt="Username">
+				<p>roshank9419</p>
+			</div>
+			<ul>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#portfolio_section">Portfolio</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+				<li><a href="#feedBACK">Feedback</a></li>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center">
-     <h1 class="logo me-auto"><a href="index.php"><img src="assets/img/logo/logka.jpg" class="img-fluid" alt=""></a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.php" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+			</ul>
+		</div>
+	</header>
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li><a href="index.php">Accueil</a></li>
-          <li><a href="courses.php">Cours</a></li>
-          <li><a href="trainers.php">Formateurs</a></li>
-          <li><a href="Tutoriels.php">Tutoriels</a></li>
-          <li><a class="active" href="about.php">A propos de Nous</a></li>
-         
-          <li><a href="contact.php">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
 
-      <a href="inscrit/index.php" class="get-started-btn">Créer votre compte</a>
+	
+<!-- ABOUT -->
+	<div class="diffSection" id="about_section">
+		<center><p style="font-size: 50px; padding: 100px">About</p></center>
+		<div class="about-content">
+				<div class="side-image">
+					<img class="sideImage" src="assets/images/extra/e3.jpg">
+				</div>
+				<div class="side-text">
+					<h2>Quand pensez-vous de nous?</h2>
+					<p>E-kalanso est place une plateforme d’apprentissage en ligne(e-learning) dont l’accès sera public c’est-à-dire tout le monde peut apprendre et quiconque souhaite se former, acquérir de nouvelles compétences ou améliorer celles qu’il a déjà peut opter pour une formation.
+</p>
+				</div>
+		</div>
+	</div>
 
-    </div>
-  </header><!-- End Header -->
 
-  <main id="main">
-    <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs" data-aos="fade-in">
-      <div class="container">
-        <h2>A propos de Nous</h2>
-        <p> </p>
-      </div>
-    </div><!-- End Breadcrumbs -->
+<!-- PORTFOLIO -->
+	<div class="diffSection" id="portfolio_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px;">Portfolio</p></center>
+		<div class="content">
+			<p>
+				“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” “Your attitude, not your aptitude, will determine your altitude.” “If you think education is expensive, try ignorance.” “The only person who is educated is the one who has learned how to learn …and change.”
+			</p>
+		</div>
+	</div>
+	<div class="extra">
+		<p>We're increasing this data every year</p>
+		<div class="smbox">
+		<span><center><div class="data">154</div><div class="det">Apprenants</div></center></span>
+		<span><center><div class="data">62</div><div class="det">Cours</div></center></span>
+		<span><center><div class="data">10</div><div class="det">Partenaires</div></center></span>
+		<span><center><div class="data">27</div><div class="det">Projets</div></center></span>
+		</div>
+	</div>
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
 
-        <div class="row">
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-            <img src="assets/img/about/a%20propos%20de%20nous.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>La Societé YoungLabs Mali .</h3>
-            <p class="fst-italic">
-              Creer un en 2021 par les jeunes informaticiens Malien, YoungLabs est une societe qui evolue en domaine 
-                l'informatique.
-                YoungLabs est compose de 10 informaticiens repartir en differentes departement a savoir :
-            </p>
-            <ul>
-             <li><i class="bi bi-check-circle"></i> Mohamed Traore : President du YoungLabs</li>
-              <li><i class="bi bi-check-circle"></i> Ibrahim Berthe : Responsable du Graphisme</li>
-              <li><i class="bi bi-check-circle"></i> Tiecoura Diarra : Secretaire general</li>
-              <li><i class="bi bi-check-circle"></i> Mohamed Traore : Responsable du Marketing</li>
-              <li><i class="bi bi-check-circle"></i> Adama Mariko : Responsable du Communication</li>
-              <li><i class="bi bi-check-circle"></i> Sekou Mama Thera : Secretaire Administratif </li>
-              <li><i class="bi bi-check-circle"></i> Housseini Fofana : Responsable de la Maintenance</li>
-              <li><i class="bi bi-check-circle"></i> Mary traore : Responsable du GRH</li>
-              <li><i class="bi bi-check-circle"></i> Fousseyni Kone : Responsable de la Comptabilite</li>
-            <li><i class="bi bi-check-circle"></i> Abass Maiga: Responsable Informatique</li>
-          
-            </ul>
-            <p>
-        Pour plus d'information rendez-vous sur le site officiel de la societe sur <a href="https://www.younglabs223.com" class="get-started-btn">YoungLabs</a>
-            </p>
 
-          </div>
-        </div>
 
-      </div>
-    </section><!-- End About Section -->
+<!-- SERVICES -->
+	<div class="service-swipe">
+		<div class="diffSection" id="services_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Services</p></center>
+		</div>
+		<a href="subjects/computer_courses.php"><div class="s-card"><img src="assets/images/icon/computer-courses.png"><p>Des Cours Gratuits</p></div></a>
+		<a href="subjects/jee.php"><div class="s-card"><img src="assets/images/icon/brainbooster.png"><p>Les examens Préparatoires</p></div></a>
+		<a href="#"><div class="s-card"><img src="assets/images/icon/online-tutorials.png"><p>Des cours vidéos</p></div></a>
+		<a href="subjects/jee.php#sample_papers"><div class="s-card"><img src="assets/images/icon/papers.jpg"><p>Des exercices corrigés</p></div></a>
+		<a href="#"><div class="s-card"><img src="assets/images/icon/p3.png"><p>Les stages en ligne</p></div></a>
+		<a href="#contactus_section"><div class="s-card"><img src="assets/images/icon/discussion.png"><p>Discussion avec Vos professeurs</p></div></a>
+		<a href="subjects/quiz.php"><div class="s-card"><img src="assets/images/icon/q1.png"><p>participez aux quiz</p></div></a>
+		<a href="#contactus_section"><div class="s-card"><img src="assets/images/icon/help.png"><p>24x7 Support en ligne</p></div></a>
+	</div>
 
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts section-bg">
-      <div class="container">
 
-        <div class="row counters">
 
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="1232" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Eleves</p>
-          </div>
+<!-- CONTACT US -->
+	<div class="diffSection" id="contactus_section">
+		<center><p style="font-size: 50px; padding: 100px">Contact Us</p></center>
+		<div class="csec"></div>
+		<div class="back-contact">
+			<div class="cc">
+			<form action="mailto:roshank9419@gmail.com" method="post" enctype="text/plain">
+				<label>First Name <span class="imp">*</span></label><label style="margin-left: 185px">Last Name <span class="imp">*</span></label><br>
+				<center>
+				<input type="text" name="" style="margin-right: 10px; width: 175px" required="required"><input type="text" name="lname" style="width: 175px" required="required"><br>
+				</center>
+				<label>Email <span class="imp">*</span></label><br>
+				<input type="email" name="mail" style="width: 100%" required="required"><br>
+				<label>Message <span class="imp">*</span></label><br>
+				<input type="text" name="message" style="width: 100%" required="required"><br>
+				<label>Additional Details</label><br>
+				<textarea name="addtional"></textarea><br>
+				<button type="submit" id="csubmit">Send Message</button>
+			</form>
+			</div>
+		</div>
+	</div>
 
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="64" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Cours</p>
-          </div>
 
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Evenements</p>
-          </div>
+<!-- Sliding Information -->
+	<marquee style="background: linear-gradient(to right, #FA4B37, #DF2771); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20"><div class="marqu">“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” “Your attitude, not your aptitude, will determine your altitude.” “If you think education is expensive, try ignorance.” “The only person who is educated is the one who has learned how to learn …and change.”</div></marquee>
 
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Formateurs</p>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Counts Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Temoingnages</h2>
-          <p>Quelques Temoingnages</p>
-        </div>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                  <h3>IBRAHIM BERTHE</h3>
-                  <h4>Ingenieur &amp; Graphisme</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                   Je tiens a remercier le developpeur de l'application e-kalanso, car il nous aide dans notre travail, en nous informant des dates et heurs des examens en suivant la progression de l'enseignement au Mali c'est une très bonnes initiaitive.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>MARIAM FOFANA</h3>
-                  <h4>Promotrice</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Avec le eMaliSchool chaque malien à le droit d'etudier hors de la classe. cette application est riche en leçons, en astuces et tutoriels qui sont des facteurs capitales dans notre apprentissages.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                  <h3>MOUHAMED BERTHE</h3>
-                  <h4>Entrepreneur</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    L'application eMaliSchool me permet de faire des recherches, le telechargement des cours en format numerique, eMaliSchool est une très bonne plateforme pour l'education malienne .
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                  <h3>OUSMANE DIABATE</h3>
-                  <h4>Formateur</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    L'application eMaliSchool me permet de faire des recherches, le telechargement des cours en format numerique, eMaliSchool est une très bonne plateforme pour l'education malienne.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                  <h3>AMADOU MARIKO</h3>
-                  <h4>Entrepreneur</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    L'application eMaliSchool me permet de faire des recherches, le telechargement des cours en format numerique, eMaliSchool est une très bonne plateforme pour l'education malienne .
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
-
-  </main><!-- End #main -->
- <!-- ======= Footer ======= -->
-  <footer id="footer">
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <!--<h3>E-kalanso</h3>-->
-            <h6 class="logo me-auto"><a href="index.php"><img src="assets/img/logo/logka.jpg" class="img-fluid" alt=""></a></h6>
-            <p> <br>
-               Hamdallaye ACI 2000 Imm.Balde; <br>
-              BAMAKO/MALI<br><br>
-              <strong>Telephone:</strong> +22360607305 / +22377646425<br>
-              <strong>Email:</strong>ekalanso61@gmail.com<br>
-            </p>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <!--<h4>Useful Links</h4>-->
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.php">Accueil</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="courses.php">Cours</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="trainers.php">Formateurs</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="events.php">Evenements</a></li>
-               <li><i class="bx bx-chevron-right"></i> <a href="about.php">A propos de Nous</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="contact.php">Contacts</a></li>
-
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Nos Formations</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Developpement web</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Conception des apllications </a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Gestion commercial</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphisme</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Faites nous part de vos suggestion</h4>
-            <p>Nous tenterons d'être plus attentif et ouvert envers vous</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="container d-md-flex py-4">
-
-      <div class="me-md-auto text-center text-md-start">
-        <div class="copyright">
-          &copy; Copyright <strong><span>E-kalanso</span></strong>. Tout droits reserves
-          Prod by<a href="younglabs223.com">YoungLabs</a>
-        </div>
-      </div>
-      <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="https://twitter.com/home" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="https://www.facebook.com/" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="https://www.instagram.com/" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="https://www.telegram.com/" class="telegram"><i class="bx bxl-telegram"></i></a>
-      <!--  <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>-->
-      </div>
-    </div>
-  </footer><!-- End Footer --> 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+<!-- FOOTER -->
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				<img src="assets/images/icon/logo - Copy.png" style="width: 200px;">
+				<div class="logo"></div>
+				<div class="social-media">
+					<a href="#"><img src="assets/images/icon\fb.png"></a>
+					<a href="#"><img src="assets/images/icon\insta.png"></a>
+					<a href="#"><img src="assets/images/icon\tt.png"></a>
+					<a href="#"><img src="assets/images/icon\ytube.png"></a>
+					<a href="#"><img src="assets/images/icon\linkedin.png"></a>
+				</div><br><br>
+				<p class="rights-text">Copyright © 2021 Created By Roshan Kumar, Abhishek Dulat All Rights Reserved.</p>
+				<br><p><img src="assets/images/icon/location.png"> Lovely Professional University<br>Phagwara, Punjab-144401</p><br>
+				<p><img src="assets/images/icon/phone.png"> +91-1234-567-890<br><img src="assets/images/icon/mail.png">&nbsp; learnedonline9419@gmail.com</p>
+			</div>
+			<div class="right-col">
+				<h1 style="color: #fff">Our Newsletter</h1>
+				<div class="border"></div><br>
+				<p>Enter Your Email to get our News and updates.</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter Your Email">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</footer>
 
 </body>
-
 </html>
