@@ -15,8 +15,8 @@
 			<a href="../index.php"><img src="../assets/images/icon/logo.png" style="width: 120px;"></a></div>
 			<div class="switch-tab" id="switch-tab" onclick="switchTAB()"><img src="../assets/images/icon/menu.png"></div>
 			<ul id="list-switch">
-				<li><a href="jee.php"><img src="../assets/images/courses/d1.png" class="icon">JEE</a></li>
-				<li><a href="gate.php"><img src="../assets/images/courses/paper.png" class="icon">GATE</a></li>
+				<li><a href="jee.php"><img src="../assets/images/courses/d1.png" class="icon">Sciences</a></li>
+				<li><a href="gate.php"><img src="../assets/images/courses/paper.png" class="icon">IG</a></li>
 				<li><a href="#"><img src="../assets/images/courses/computer.png" class="icon">Informatique</a></li>
 				<li><a href="#data"><img src="../assets/images/courses/data.png" class="icon">Data Science</a></li>
 				<li><a href="#algo"><img src="../assets/images/courses/algo.png" class="icon">Algorithmique</a></li>
@@ -31,7 +31,7 @@
 
 <!-- MAIN Heading of Page -->
 	<div class="title">
-		<span>Les Cours d'Informatique<br>sur e-kalanso</span>
+		<span>Préparez votre carrière d'ingénieur en Information<br>via e-kalanso</span>
 		<div class="shortdesc">
 			<p>Apprendre les langages de programmation et leur concepts<br>Développement Web et Mobile</p>
 		</div>
@@ -55,7 +55,7 @@
 		<div class="det"><a href="https://en.wikipedia.org/wiki/Artificial_intelligence">Intelligence Artificialle</a></div>
 		<div class="det"><a href="https://en.wikipedia.org/wiki/Network">Le Réseaux</a></div>
 		<div class="det"><a href="https://www.kaspersky.co.in/resource-center/definitions/what-is-cyber-security">Cyber Securité</a></div>
-		<div class="det"><a href="https://www.eccouncil.org/ethical-hacking/">Ethical Hacking</a></div>
+		<div class="det"><a href="https://www.eccouncil.org/ethical-hacking/"> Hacking Ethique</a></div>
 		<div class="det"><a href="#data">Data Siences</a></div>
 		</div>
 		<div class="cbox">
@@ -572,32 +572,32 @@
 
 <!-- FOOTER -->
 <footer>
-	<div class="footer-container">
-		<div class="left-col">
-			<img src="../assets/images/icon/logo - Copy.png" style="width: 200px;">
-			<div class="logo"></div>
-			<div class="social-media">
-				<a href="#"><img src="../assets/images/icon\fb.png"></a>
-				<a href="#"><img src="../assets/images/icon\insta.png"></a>
-				<a href="#"><img src="../assets/images/icon\tt.png"></a>
-				<a href="#"><img src="../assets/images/icon\ytube.png"></a>
-				<a href="#"><img src="../assets/images/icon\linkedin.png"></a>
-			</div><br><br>
-			<p class="rights-text">Copyright © 2021 Created By Roshan Kumar, Abhishek Dulat All Rights Reserved.</p>
-			<br><p><img src="../assets/images/icon/location.png"> Lovely Professional University<br>Phagwara, Punjab-144401</p><br>
-			<p><img src="../assets/images/icon/phone.png"> +91-1234-567-890<br><img src="../assets/images/icon/mail.png">&nbsp; learnedonline9419@gmail.com</p>
+		<div class="footer-container">
+			<div class="left-col">
+				<img src="assets/images/icon/logo - Copy.png" style="width: 200px;">
+				<div class="logo"></div>
+				<div class="social-media">
+					<a href="#"><img src="assets/images/icon\fb.png"></a>
+					<a href="#"><img src="assets/images/icon\insta.png"></a>
+					<a href="#"><img src="assets/images/icon\tt.png"></a>
+					<a href="#"><img src="assets/images/icon\ytube.png"></a>
+					<a href="#"><img src="assets/images/icon\linkedin.png"></a>
+				</div><br><br>
+				<p class="rights-text">Copyright © 2021 Created by younglabs! Tout droit réservé</p>
+				<br><p><img src="assets/images/icon/location.png"> e-kalanso<br>Hamdallaye ACI 2000</p><br>
+				<p><img src="assets/images/icon/phone.png"> +22378309046<br><img src="assets/images/icon/mail.png">&nbsp; ekalanso@gmail.com</p>
+			</div>
+			<div class="right-col">
+				<h1 style="color: #fff">Votre message</h1>
+				<div class="border"></div><br>
+				<p>Donnez votre email</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter Your Email">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+			</div>
 		</div>
-		<div class="right-col">
-			<h1 style="color: #fff">Our Newsletter</h1>
-			<div class="border"></div><br>
-			<p>Enter Your Email to get our News and updates.</p>
-			<form class="newsletter-form">
-				<input class="txtb" type="email" placeholder="Enter Your Email">
-				<input class="btn" type="submit" value="Submit">
-			</form>
-		</div>
-	</div>
-</footer>
+	</footer>
 
 </body>
 </html>

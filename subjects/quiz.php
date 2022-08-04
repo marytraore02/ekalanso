@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="shortcut icon" type="png" href="../images/icon/favicon.png">
-	<title>Quiz on LearnEd</title>
+	<title>Quiz sur e-kalanso</title>
 	<link rel="stylesheet" type="text/css" href="quizStyle.css">
 	<script type="text/javascript" src="../script.js"></script>
 </head>
@@ -15,12 +15,12 @@
 			<a href="../index.php"><img src="../images/icon/logo.png" style="width: 120px;"></a></div>
 			<div class="switch-tab" id="switch-tab" onclick="switchTAB()"><img src="../images/icon/menu.png"></div>
 			<ul id="list-switch">
-				<li><a href="jee.php"><img src="../images/courses/d1.png" class="icon">JEE</a></li>
-				<li><a href="gate.php"><img src="../images/courses/paper.png" class="icon">GATE</a></li>
-				<li><a href="computer_courses.php"><img src="../images/courses/computer.png" class="icon">Computer Courses</a></li>
-				<li><a href="computer_courses.php#data"><img src="../images/courses/data.png" class="icon">Data Structures</a></li>
-				<li><a href="computer_courses.php#algo"><img src="../images/courses/algo.png" class="icon">Algorithm</a></li>
-				<li><a href="computer_courses.php#projects"><img src="../images/courses/projects.png" class="icon">Projects</a></li>
+				<li><a href="jee.php"><img src="../images/courses/d1.png" class="icon">Sciences</a></li>
+				<li><a href="gate.php"><img src="../images/courses/paper.png" class="icon">IG</a></li>
+				<li><a href="computer_courses.php"><img src="../images/courses/computer.png" class="icon">Informatique</a></li>
+				<li><a href="computer_courses.php#data"><img src="../images/courses/data.png" class="icon">Data Science</a></li>
+				<li><a href="computer_courses.php#algo"><img src="../images/courses/algo.png" class="icon">Algorithmique</a></li>
+				<li><a href="computer_courses.php#projects"><img src="../images/courses/projects.png" class="icon">Projets</a></li>
 			</ul>
 			<div class="search" id="search-switch">
 				<input type="search" placeholder="Search" class="srch"><button id="srchbtn"><img src="../images/icon/search.png"></button>
@@ -31,11 +31,11 @@
 
 <!-- MAIN Heading of Page -->
 	<div class="title" id="title">
-		<span>Daily Quiz on LearnEd</span>
+		<span>Test</span>
 		<div class="shortdesc"><br>
 			<p>If you think education is expensive, try ignorance</p>
 		</div>
-		<button onclick="startquiz()">Start Now</button>
+		<button onclick="startquiz()">Démarrer</button>
 	</div>
 
 
@@ -43,17 +43,17 @@
 	
 	<div class="left-side" id="left">
 		<ul>
-			<li onclick="quizt(1)">HOME</li>
-			<li onclick="quizt(2)">JEE Mains</li>
-			<li onclick="quizt(3)">JEE Advanced</li>
-			<li onclick="quizt(4)">GATE</li>
+			<li onclick="quizt(1)">Accueil</li>
+			<li onclick="quizt(2)">Sciences Débutant</li>
+			<li onclick="quizt(3)">Sciences</li>
+			<li onclick="quizt(4)">IG</li>
 			<li onclick="quizt(5)">C/C++</li>
 			<li onclick="quizt(6)">Java</li>
 			<li onclick="quizt(7)">Python</li>
 			<li onclick="quizt(8)">JavaScript</li>
-			<li onclick="quizt(9)">Data Structures</li>
-			<li onclick="quizt(10)">Algorithm</li>
-			<li onclick="quizt(11)">Interview Questions</li>
+			<li onclick="quizt(9)">Data Science</li>
+			<li onclick="quizt(10)">Algorithmique</li>
+			<li onclick="quizt(11)">Interview</li>
 		</ul>
 	</div>
 

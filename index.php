@@ -249,22 +249,22 @@
 
 <!-- CONTACT US -->
 	<div class="diffSection" id="contactus_section">
-		<center><p style="font-size: 50px; padding: 100px">Contact Us</p></center>
+		<center><p style="font-size: 50px; padding: 100px">Contactez-Nous</p></center>
 		<div class="csec"></div>
 		<div class="back-contact">
 			<div class="cc">
 			<form action="mailto:roshank9419@gmail.com" method="post" enctype="text/plain">
-				<label>First Name <span class="imp">*</span></label><label style="margin-left: 185px">Last Name <span class="imp">*</span></label><br>
+				<label>Nom <span class="imp">*</span></label><label style="margin-left: 185px">Prénom <span class="imp">*</span></label><br>
 				<center>
 				<input type="text" name="" style="margin-right: 10px; width: 175px" required="required"><input type="text" name="lname" style="width: 175px" required="required"><br>
 				</center>
 				<label>Email <span class="imp">*</span></label><br>
 				<input type="email" name="mail" style="width: 100%" required="required"><br>
-				<label>Message <span class="imp">*</span></label><br>
+				<label>Votre Message <span class="imp">*</span></label><br>
 				<input type="text" name="message" style="width: 100%" required="required"><br>
-				<label>Additional Details</label><br>
+				<label>Détails</label><br>
 				<textarea name="addtional"></textarea><br>
-				<button type="submit" id="csubmit">Send Message</button>
+				<button type="submit" id="csubmit">Envoyer</button>
 			</form>
 			</div>
 		</div>
@@ -273,22 +273,22 @@
 
 <!-- FEEDBACK -->
 	<div class="title2" id="feedBACK">
-		<span>Give Feedback</span>
+		<span>Donnez votre Feedback</span>
 		<div class="shortdesc2">
-			<p>Please share your valuable feedback to us</p>
+			<p>Veuillez donnez votre Avis , ça compte beaucoup!</p>
 		</div>
 	</div>
 
 	<div class="feedbox">
 		<div class="feed">
 			<form action="mailto:roshank9419@gmail.com" method="post" enctype="text/plain">
-				<label>Your Name</label><br>
+				<label>Nom</label><br>
 				<input type="text" name="" class="fname" required="required"><br>
 				<label>Email</label><br>
 				<input type="email" name="mail" required="required"><br>
-				<label>Additional Details</label><br>
+				<label>Détails</label><br>
 				<textarea name="addtional"></textarea><br>
-				<button type="submit" id="csubmit">Send Message</button>
+				<button type="submit" id="csubmit">Envoyer</button>
 			</form>
 		</div>
 	</div>
@@ -309,14 +309,14 @@
 					<a href="#"><img src="assets/images/icon\ytube.png"></a>
 					<a href="#"><img src="assets/images/icon\linkedin.png"></a>
 				</div><br><br>
-				<p class="rights-text">Copyright © 2021 Created By Roshan Kumar, Abhishek Dulat All Rights Reserved.</p>
-				<br><p><img src="assets/images/icon/location.png"> Lovely Professional University<br>Phagwara, Punjab-144401</p><br>
-				<p><img src="assets/images/icon/phone.png"> +91-1234-567-890<br><img src="assets/images/icon/mail.png">&nbsp; learnedonline9419@gmail.com</p>
+				<p class="rights-text">Copyright © 2021 Created by younglabs! Tout droit réservé</p>
+				<br><p><img src="assets/images/icon/location.png"> e-kalanso<br>Hamdallaye ACI 2000</p><br>
+				<p><img src="assets/images/icon/phone.png"> +22378309046<br><img src="assets/images/icon/mail.png">&nbsp; ekalanso@gmail.com</p>
 			</div>
 			<div class="right-col">
-				<h1 style="color: #fff">Our Newsletter</h1>
+				<h1 style="color: #fff">Votre message</h1>
 				<div class="border"></div><br>
-				<p>Enter Your Email to get our News and updates.</p>
+				<p>Donnez votre email</p>
 				<form class="newsletter-form">
 					<input class="txtb" type="email" placeholder="Enter Your Email">
 					<input class="btn" type="submit" value="Submit">
