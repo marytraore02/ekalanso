@@ -27,7 +27,7 @@
 			<div class="logo"><img src="assets/images/icon/logo.jpg" alt="logo"></div>
 			<ul>
 				<li><a href="index.php">Accueil</a></li>
-				<li><a href="subjects/jee.php">Nos Formations</a></li>
+				<li><a href="subjects/formation.php">Nos Formations</a></li>
 				<li><a href="pub.php">Nos Portfolio</a></li>
 				<li><a href="inscrit/index.php">Certification</a></li>
 				<li><a class="active" href="about.php">A Propos</a></li>
@@ -114,9 +114,9 @@
 		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Services</p></center>
 		</div>
 		<a href="subjects/computer_courses.php"><div class="s-card"><img src="assets/images/icon/computer-courses.png"><p>Des Cours Gratuits</p></div></a>
-		<a href="subjects/jee.php"><div class="s-card"><img src="assets/images/icon/brainbooster.png"><p>Les examens Préparatoires</p></div></a>
+		<a href="subjects/formation.php"><div class="s-card"><img src="assets/images/icon/brainbooster.png"><p>Les examens Préparatoires</p></div></a>
 		<a href="#"><div class="s-card"><img src="assets/images/icon/online-tutorials.png"><p>Des cours vidéos</p></div></a>
-		<a href="subjects/jee.php#sample_papers"><div class="s-card"><img src="assets/images/icon/papers.jpg"><p>Des exercices corrigés</p></div></a>
+		<a href="subjects/formation.php#sample_papers"><div class="s-card"><img src="assets/images/icon/papers.jpg"><p>Des exercices corrigés</p></div></a>
 		<a href="#"><div class="s-card"><img src="assets/images/icon/p3.png"><p>Les stages en ligne</p></div></a>
 		<a href="#contactus_section"><div class="s-card"><img src="assets/images/icon/discussion.png"><p>Discussion avec Vos professeurs</p></div></a>
 		<a href="subjects/quiz.php"><div class="s-card"><img src="assets/images/icon/q1.png"><p>participez aux quiz</p></div></a>

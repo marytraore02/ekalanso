@@ -15,7 +15,7 @@
 			<a href="../index.php"><img src="../images/icon/logo.png" style="width: 120px;"></a></div>
 			<div class="switch-tab" id="switch-tab" onclick="switchTAB()"><img src="../images/icon/menu.png"></div>
 			<ul id="list-switch">
-				<li><a href="jee.php"><img src="../images/courses/d1.png" class="icon">Sciences</a></li>
+				<li><a href="formation.php"><img src="../images/courses/d1.png" class="icon">Sciences</a></li>
 				<li><a href="gate.php"><img src="../images/courses/paper.png" class="icon">IG</a></li>
 				<li><a href="computer_courses.php"><img src="../images/courses/computer.png" class="icon">Informatique</a></li>
 				<li><a href="computer_courses.php#data"><img src="../images/courses/data.png" class="icon">Data Science</a></li>

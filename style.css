@@ -20,7 +20,8 @@ header {
 	height: 90vh;
 	/* background: #000; */
 }
-.black {
+.black { 
+
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 nav {
@@ -523,7 +524,7 @@ a, button {
 
 /*Contact Us Section*/
 .csec {
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to left, #58aee1, #046aa7);
 	background-attachment: fixed; 
 	position: absolute;
 	width: 100%;
@@ -573,7 +574,7 @@ a, button {
 	font-weight: 600;
 }
 .imp {
-	color: red;
+	color: #58aee1;
 }
 form textarea {
 	width: 100%;
@@ -588,7 +589,7 @@ form textarea {
 }
 #csubmit {
 	margin-top: 20px; 
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to left, #58aee1, #046aa7);
 	border-radius: 5px;
 	border-style: none;
 	outline: none;
@@ -753,7 +754,7 @@ form textarea {
 }
 .feed #csubmit {
 	margin-top: 25px; 
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to left, #58aee1, #046aa7);
 	border-radius: 5px;
 	border-style: none;
 	outline: none;
@@ -806,7 +807,7 @@ footer .right-col h1{
 footer .border{
 	width: 100px;
 	height: 4px;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to left, #58aee1, #046aa7);
 	margin: 2px;
 }
 footer .newsletter-form {
@@ -836,7 +837,7 @@ footer .btn {
 	padding: 18px 40px;
 	font-size: 16px;
 	color: #f1f1f1;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to left, #58aee1, #046aa7);
 	border: none;
 	font-weight: 700;
 	outline: none;

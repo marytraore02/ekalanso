@@ -18,13 +18,13 @@ body {
 /*SCROLLBAR Styling*/
 ::-webkit-scrollbar {
   width: 5px;
-}
+} 
 ::-webkit-scrollbar-thumb {
-  background: #FA4B37;
+  background: #6fbfee;
   border-radius: 5px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #DF2771; 
+  background: #6fbfee; 
 }
 
 /*NAVIGATION BAR*/
@@ -42,7 +42,7 @@ body {
 	z-index: 10;
 	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
 }
-
+           /*===============ICI C'EST LE NAVBAR=========================*/
 .nav li, a, button
 {
 	float: left;
@@ -76,13 +76,13 @@ body {
 
 .nav ul li a:hover
 {
-	color: #FA4B37;
+	color: #6fbfee;
 }
 
 .nav button
 {
 	padding: 9px 25px;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to left, #58aee1, #046aa7);
 	color: #fff;
 	border: none;
 	border-radius: 5px;
@@ -111,7 +111,7 @@ body {
 	width: 300px;
 	border: none;
 	outline: none;
-	border-bottom: 2px solid #FA4B37;
+	border-bottom: 2px solid #58aee1;
 	padding: 9px;
 }
 .nav .search button
@@ -174,7 +174,7 @@ body {
 	width: 100%;
 	padding: 20px;
 	border-radius: 50px;
-	border: 1px solid #FA4B37;
+	border: 1px solid #6fbfee;
 	font-size: 15px;
 	color: #272529;
 	font-family: cursive;
@@ -182,7 +182,7 @@ body {
 }
 
 .cbox .det a:hover{
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to  left, #58aee1, #046aa7);
 	color: white;
 }
 
@@ -212,7 +212,7 @@ body {
 	margin: 10px;
 	width: 300px;
 	height: 200px;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to left, #58aee1, #046aa7);
 	border-radius: 10px;
 	box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
@@ -279,7 +279,7 @@ body {
 	margin: 20px;
 	width: 300px;
 	height: 160px;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to left, #58aee1, #046aa7);
 	border-radius: 10px;
 }
 .dcard2:hover .fpart2 img {
@@ -317,13 +317,13 @@ body {
 	display: flex;
 }
 .click-me a {
-	color: #DF2771;
+	color: #58aee1;
 	text-decoration: none;
 	transition-duration: .5s;
 	padding: 10px;
 }
 .click-me a:hover {
-	background: #DF2771;
+	background: #58aee1;
 	color: #fff;
 }
 
@@ -372,13 +372,13 @@ body {
 }
 .download a{
 	padding: 5px 10px;
-	color: #DF2771;
+	color: #58aee1;
 	font-size: .8em;
 	visibility: hidden;
 }
 .download:hover a{
 	transition: .5s ease;
-	background: #DF2771;
+	background: #58aee1;
 	color: #fff;
 }
 
@@ -404,7 +404,7 @@ body {
 }
 
 .sample ul li a {
-	color: #FA4B37;
+	color: #6fbfee;
 	width: 300px;
 	font-size: 20px;
 }
@@ -453,7 +453,7 @@ footer .right-col h1{
 footer .border{
 	width: 100px;
 	height: 4px;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to left, #58aee1, #046aa7);
 	margin: 2px;
 }
 
@@ -485,7 +485,7 @@ footer .btn {
 	padding: 18px 40px;
 	font-size: 16px;
 	color: #f1f1f1;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to left, #58aee1, #046aa7);
 	border: none;
 	font-weight: 700;
 	outline: none;

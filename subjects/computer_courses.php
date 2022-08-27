@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="shortcut icon" type="png" href="../assets/images/icon/favicon.png">
+	<link rel="shortcut icon" type="png" href="../assets/images/icon/pn.png">
 	<title>Les Cours d'Informatique</title>
 	<link rel="stylesheet" type="text/css" href="subjects.css">
 	<script type="text/javascript" src="../script.js"></script>
@@ -12,10 +12,10 @@
 	<header>
 		<div class="nav" id="nav">
 			<div id="learned-logo">
-			<a href="../index.php"><img src="../assets/images/icon/logo.png" style="width: 120px;"></a></div>
+			<a href="../index.php"><img src="../assets/images/icon/Sans titre-1.jpg" style="width: 120px;"></a></div>
 			<div class="switch-tab" id="switch-tab" onclick="switchTAB()"><img src="../assets/images/icon/menu.png"></div>
 			<ul id="list-switch">
-				<li><a href="jee.php"><img src="../assets/images/courses/d1.png" class="icon">Sciences</a></li>
+				<li><a href="formation.php"><img src="../assets/images/courses/d1.png" class="icon">Formation</a></li>
 				<li><a href="gate.php"><img src="../assets/images/courses/paper.png" class="icon">IG</a></li>
 				<li><a href="#"><img src="../assets/images/courses/computer.png" class="icon">Informatique</a></li>
 				<li><a href="#data"><img src="../assets/images/courses/data.png" class="icon">Data Science</a></li>

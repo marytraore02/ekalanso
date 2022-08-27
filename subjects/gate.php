@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="shortcut icon" type="png" href="../images/icon/favicon.png">
-	<title>Préparez Votre Carrière en Informatique Générale</title>
+	<link rel="shortcut icon" type="png" href="../images/icon/pn.png">
+
+	<title>Accéder à Nos Meilleur Formation</title>
 	<link rel="stylesheet" type="text/css" href="subjects.css">
 	<script type="text/javascript" src="../script.js"></script>
 </head>
@@ -12,11 +13,11 @@
 	<header>
 		<div class="nav" id="nav">
 			<div id="learned-logo">
-			<a href="../index.php"><img src="../images/icon/logo.png" style="width: 120px;"></a></div>
+			<a href="../index.php"><img src="../images/icon/Sans titre-1.jpg" style="width: 120px;"></a></div>
 			<div class="switch-tab" id="switch-tab" onclick="switchTAB()"><img src="../images/icon/menu.png"></div>
 			<ul id="list-switch">
-				<li><a href="jee.php"><img src="../images/courses/d1.png" class="icon">Sciences</a></li>
-				<li><a href="#"><img src="../images/courses/paper.png" class="icon">IG</a></li>
+				<li><a href="formation.php"><img src="../images/courses/d1.png" class="icon">Formation</a></li>
+				<li><a href="#"><img src="../images/courses/paper.png" class="icon">Informatique Générale</a></li>
 				<li><a href="computer_courses.php"><img src="../images/courses/computer.png" class="icon">Informatique</a></li>
 				<li><a href="computer_courses.php#data"><img src="../images/courses/data.png" class="icon">Data Sciences</a></li>
 				<li><a href="computer_courses.php#algo"><img src="../images/courses/algo.png" class="icon">Algorithmique</a></li>
@@ -38,7 +39,7 @@
 	</div>
 
 
-<!-- Some KeyWords related to topic -->
+                               <!-- ========== LES NOMS DES MATIERES DANS LES PETITES CASES -->
 	<div class="course">
 		<div class="cbox">
 		<div class="det"><a href="#digital">Logique</a></div>
@@ -70,17 +71,19 @@
 	</div>
 
 
-<!-- Courses Available -->
+                     <!--========================LES COURS DE LA  FENETRE IG======================== -->
+
 	<div class="inbt">
 	Préparez votre carrière scientifique avec nos programmes
 	</div>
 
 	<div class="ccard">
 	<center>
+	
 		<div class="ccardbox">
 			<div class="dcard">
 				<div class="fpart"><img src="../images/courses/math.jpg"></div>
-				<a href="#math"><div class="spart">2 Cours <img src="../images/icon/dropdown.png"></div></a>
+				<a href="#math"><div class="spart">3 Cours <img src="../images/icon/dropdown.png"></div></a>
 			</div>
 			<div class="dcard">
 				<div class="fpart"><img src="../images/courses/digital.jpg"></div>
@@ -587,7 +590,7 @@
 <footer>
 		<div class="footer-container">
 			<div class="left-col">
-				<img src="assets/images/icon/logo - Copy.png" style="width: 200px;">
+				<img src="assets/images/icon/Sans titre-1.jpg" style="width: 200px;">
 				<div class="logo"></div>
 				<div class="social-media">
 					<a href="#"><img src="assets/images/icon\fb.png"></a>

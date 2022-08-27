@@ -47,7 +47,7 @@
       <div class="logo"><img src="assets/images/icon/logo.jpg" alt="logo"></div>
       <ul>
         <li><a href="index.php">Accueil</a></li>
-        <li><a href="subjects/jee.php">Nos Formations</a></li>
+        <li><a href="subjects/formation.php">Nos Formations</a></li>
         <li><a href="pub.php">Nos Portfolio</a></li>
         <li><a href="inscrit/index.php">Certification</a></li>
         <li><a href="about.php">A Propos</a></li>

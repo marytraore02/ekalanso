@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="shortcut icon" type="png" href="assets/images/icon/favicon.png">
+	<link rel="shortcut icon" type="png" href="assets/images/icon/pn.png">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
 	<title>E-kalanso</title>
@@ -29,7 +29,7 @@
 			<div class="logo"><img src="assets/images/icon/Sans titre-1.jpg" alt="logo"></div>
 			<ul>
 				<li><a class="active" href="">Accueil</a></li>
-				<li><a href="subjects/jee.php">Formations</a></li>
+				<li><a href="subjects/formation.php">Formations</a></li>
 				<li><a href="pub.php">Portfolio</a></li>
 				<li><a href="inscrit/index.php">Certification</a></li>
 				<li><a href="about.php">A Propos</a></li>
@@ -78,12 +78,12 @@
 	<br><br>
 	<div class="course">
 		<center><div class="cbox">
-		<div class="det"><a href="subjects/jee.php"><img src="assets/images/courses/book.png">Matiers Scientifiques</a></div>
+		<div class="det"><a href="subjects/formation.php"><img src="assets/images/courses/book.png">Matiers Scientifiques</a></div>
 		<div class="det"><a href="subjects/gate.php"><img src="assets/images/courses/d1.png">Médecine</a></div>
-		<div class="det"><a href="subjects/jee.php#sample_papers"><img src="assets/images/courses/paper.png">Littératures</a></div>
+		<div class="det"><a href="subjects/formation.php#sample_papers"><img src="assets/images/courses/paper.png">Littératures</a></div>
 		<div class="det"><a href="subjects/quiz.php"><img src="assets/images/courses/d1.png">Quiz</a></div>
-		</div></center>
-		<div class="cbox">
+		</div></center><div class="cbox">
+		
 		<div class="det"><a href="subjects/computer_courses.php"><img src="assets/images/courses/computer.png">Informatique</a></div>
 		<div class="det"><a href="subjects/computer_courses.php#data"><img src="assets/images/courses/data.png">Economies</a></div>
 		<div class="det"><a href="subjects/computer_courses.php#algo"><img src="assets/images/courses/algo.png">Algorithmes</a></div>
@@ -168,33 +168,35 @@
 	</div>
 	</div>
 
-<!-- SERVICES -->
-	<div class="service-swipe">
+			<!-- ===============================SERVICES======================================================= -->
+	
+<div class="service-swipe">
 		<div class="diffSection" id="services_section">
 		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Services</p></center>
 		</div>
 		<a href="subjects/computer_courses.php"><div class="s-card"><img src="assets/images/icon/computer-courses.png"><p>Des Cours Gratuits</p></div></a>
-		<a href="subjects/jee.php"><div class="s-card"><img src="assets/images/icon/brainbooster.png"><p>Les examens Préparatoires</p></div></a>
-		<a href="#"><div class="s-card"><img src="assets/images/icon/online-tutorials.png"><p>Des cours vidéos</p></div></a>
-		<a href="subjects/jee.php#sample_papers"><div class="s-card"><img src="assets/images/icon/papers.jpg"><p>Des exercices corrigés</p></div></a>
+		<a href="subjects/formation.php"><div class="s-card"><img src="assets/images/icon/brainbooster.png"><p>Les Examens Préparatoires</p></div></a>
+		<a href="#"><div class="s-card"><img src="assets/images/icon/online-tutorials.png"><p>Des Cours Vidéos</p></div></a>
+		<a href="subjects/formation.php#sample_papers"><div class="s-card"><img src="assets/images/icon/papers.jpg"><p>Des Exercices Corrigés</p></div></a>
 		<a href="#"><div class="s-card"><img src="assets/images/icon/p3.png"><p>Les stages en ligne</p></div></a>
 		<a href="#contactus_section"><div class="s-card"><img src="assets/images/icon/discussion.png"><p>Discussion avec Vos professeurs</p></div></a>
 		<a href="subjects/quiz.php"><div class="s-card"><img src="assets/images/icon/q1.png"><p>participez aux quiz</p></div></a>
 		<a href="#contactus_section"><div class="s-card"><img src="assets/images/icon/help.png"><p>24x7 Support en ligne</p></div></a>
 	</div>
 
-<!-- Reviews by Students -->
-<div id="makeitfull">
+				<!-- ====================================Reviews by Students=============================== -->
+
+	<div id="makeitfull">
 	<a href="#review_section"><img src="assets/images/icon/makeitfull.png"></a>
 </div>
 <div class="review">
 	<div class="diffSection" id="review_section">
-		<center><p style="font-size: 40px; padding: 100px; padding-bottom: 40px; color: #2E3D49;">What the Students Say About Us?</p></center>
+		<center><p style="font-size: 40px; padding: 100px; padding-bottom: 40px; color: #2E3D49;">Ce que les etudiants pense de E-KALANSO?</p></center>
 	</div>
 	<div class="rev-container">
 		<div class="rev-card">
 			<div class="identity">
-				<img src="assets/images/creator/humanNotExist1.jpg"><p>Sophie Daniel</p>
+				<img src="assets/images/creator/humanNotExist1.jpg"><p>Hawaou Fofana</p>
 				<h6>Java</h6>
 				<div class="rating"><img src="assets/images/icon/star.png"><img src="assets/images/icon/star.png"><img src="assets/images/icon/star.png"><img src="assets/images/icon/star.png"><img src="assets/images/icon/star.png"></div>
 			</div>
@@ -247,8 +249,9 @@
 	</div>
 </div>
 
-<!-- CONTACT US -->
-	<div class="diffSection" id="contactus_section">
+                <!-- ===============================CONTACTER NOUS========================================= -->
+	
+				<div class="diffSection" id="contactus_section">
 		<center><p style="font-size: 50px; padding: 100px">Contactez-Nous</p></center>
 		<div class="csec"></div>
 		<div class="back-contact">
@@ -271,8 +274,9 @@
 	</div>
 
 
-<!-- FEEDBACK -->
-	<div class="title2" id="feedBACK">
+				<!-- =================================FEEDBACK================================== -->
+	
+				<div class="title2" id="feedBACK">
 		<span>Donnez votre Feedback</span>
 		<div class="shortdesc2">
 			<p>Veuillez donnez votre Avis , ça compte beaucoup!</p>
@@ -294,13 +298,13 @@
 	</div>
 
 <!-- Sliding Information -->
-	<marquee style="background: linear-gradient(to right, #FA4B37, #DF2771); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20"><div class="marqu">“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” “Your attitude, not your aptitude, will determine your altitude.” “If you think education is expensive, try ignorance.” “The only person who is educated is the one who has learned how to learn …and change.”</div></marquee>
+	<marquee style="background: linear-gradient(to  left, #58aee1, #046aa7); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20"><div class="marqu">“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” “Your attitude, not your aptitude, will determine your altitude.” “If you think education is expensive, try ignorance.” “The only person who is educated is the one who has learned how to learn …and change.”</div></marquee>
 
 <!-- FOOTER -->
 	<footer>
 		<div class="footer-container">
 			<div class="left-col">
-				<img src="assets/images/icon/logo - Copy.png" style="width: 200px;">
+				<img src="assets/images/icon/Sans titre-1.jpg" style="width: 200px;">
 				<div class="logo"></div>
 				<div class="social-media">
 					<a href="#"><img src="assets/images/icon\fb.png"></a>
